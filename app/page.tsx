@@ -12,11 +12,11 @@ export default function Home() {
           <h1 className="text-green-900 text-3xl font-bold">Contact Us</h1>
         </div>
         <div className="flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0">
-          <div className="w-1/2">
+          <div className="w-full sm:w-1/2">
             <Textin>Firt Name</Textin>
             <Input type={"text"}></Input>
           </div>
-          <div className="w-1/2">
+          <div className="w-full sm:w-1/2">
             <Textin>Last Name</Textin>
             <Input type={"text"}></Input>
           </div>
